@@ -8,7 +8,9 @@ Note: if there is nothing to sum, the sum is default to 0.
 
 # To run the test
 $ bundle init
+
 $ rspec --init
+
 $ bundle install
 
 
