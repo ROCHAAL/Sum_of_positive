@@ -2,7 +2,7 @@ def sum_of_positive(input_array)
     arr = []
 
   #Starting  checking the input numbers one by one
-    input_array.map.inject do  |n|
+    input_array.each.inject do  |n|
         if n > 0
           arr.push(n).join.to_i
         end

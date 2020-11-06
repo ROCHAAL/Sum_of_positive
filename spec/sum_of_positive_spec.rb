@@ -10,5 +10,4 @@ describe 'sum_of_positive' do
       sum = sum_of_positive([2, -4])
     expect(sum).to eq(2)
   end
-  
 end
