@@ -2,13 +2,16 @@ def sum_of_positive(input_array)
     arr = []
 
   #Starting  checking the input numbers one by one
-    input_array.each.inject do  |n|
-        if n > 0
-          arr.push(n).join.to_i
-        elsif n < 0
-          return 0 
-        end
+    input_array.each do  |n|
+      if n < 0
+        return 0
+      elsif n > 0
+        return  arr.push(n).inject.to_i
+      else
+      
+
       end
+    end
 end
 
 #If I find a positive number  I select it and put in the array  of  positive numbers
