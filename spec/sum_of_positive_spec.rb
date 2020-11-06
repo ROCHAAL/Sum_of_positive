@@ -10,4 +10,8 @@ describe 'sum_of_positive' do
       sum = sum_of_positive([2, -4])
     expect(sum).to eq(2)
   end
+  it ' takes an array of negative numbes and return 0.' do
+    sum = sum_of_positive([-1,-3])
+    expect(sum).to eq(0)
+  end 
 end

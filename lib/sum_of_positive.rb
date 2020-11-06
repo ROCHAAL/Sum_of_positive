@@ -5,6 +5,8 @@ def sum_of_positive(input_array)
     input_array.each.inject do  |n|
         if n > 0
           arr.push(n).join.to_i
+        elsif n < 0
+          return 0 
         end
       end
 end
