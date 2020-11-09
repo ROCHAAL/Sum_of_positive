@@ -3,14 +3,16 @@ def sum_of_positive(input_array)
 
   #Starting  checking the input numbers one by one
     input_array.each do  |n|
-      if n < 0
-        return 0
-      elsif n > 0
-        return  arr.push(n).inject.to_i
-      else
-      
 
+
+      if n > 0
+         arr.push(n)
       end
+    end
+    if arr.empty?
+      return 0
+    else
+      arr.inject(:+)
     end
 end
 
