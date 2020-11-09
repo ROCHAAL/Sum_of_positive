@@ -15,7 +15,7 @@ describe 'sum_of_positive' do
     expect(sum).to eq(0)
   end
     it 'takes an array of several positive numbers in the input array and return the sum of the positives.'do
-      sum = sum_of_positive([1,7,5,8,2,])
+      sum = sum_of_positive([1,7,5,8,2])
       expect(sum).to eq(23)
     end
 end
