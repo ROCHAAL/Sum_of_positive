@@ -3,7 +3,7 @@ This is the TDD of a kata.It has an array of numbers, return the sum of all of t
 Example [1,-4,7,12] => 1 + 7 + 12 = 20
 Note: if there is nothing to sum, the sum is default to 0.
 
-# To run the program
+# Ruby version
 .Ruby 2.7.1
 
 # To run the test
@@ -12,7 +12,7 @@ $ bundle init
 $ rspec --init
 
 $ bundle install
-
+```
 
 # Steps
 
