@@ -14,6 +14,8 @@ $ rspec --init
 
 $ bundle install
 
+$ rspec 
+```
 
 # Steps
 
